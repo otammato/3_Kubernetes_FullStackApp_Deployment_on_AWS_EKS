@@ -1,7 +1,7 @@
 # Kubernetes_FullStackApp_Deployment
 
 
-<details markdown=1><summary markdown="span">## Pre-requisites</summary>
+## <details markdown=1><summary markdown="span"> Pre-requisites</summary>
 
 ## Launch a Kubernetes cluster on AWS EKS (use a Terraform template)
 
