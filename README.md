@@ -213,7 +213,7 @@ spec:
 <br>
 <br>
 
-## To troubleshoot the app use: 
+## To troubleshoot the app: 
 
 Check the container status:
 
@@ -230,3 +230,7 @@ If the pod has multiple containers, you can specify the container name using the
 Check connectivity: Validate the connectivity to the MySQL server from within the cluster. You can create a temporary pod to access the MySQL server container and test the connection.
 
 ```kubectl run -it --rm --image=mysql:latest mysql-client -- mysql -h <mysql-service-name> -u root -p```
+
+To open an interactive shell (such as bash) inside a container,
+
+```kubectl exec -it my-pod -c my-container -- /bin/bash```
