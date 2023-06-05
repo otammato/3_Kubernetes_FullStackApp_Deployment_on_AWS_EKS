@@ -183,8 +183,6 @@ spec:
 
 2. Apply the deployment
 
-```
-kubectl apply -f deployment.yaml
-```
+```kubectl apply -f deployment.yaml```
 
 <img width="700" alt="Screenshot 2023-06-05 at 20 18 35" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/d3d7cb97-95b0-45af-85e4-73fb8a9abefd">
