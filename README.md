@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
-<details markdown=1><summary markdown="span">Launch a Kubernetes cluster. I am using AWS EKS.</summary>
+<details markdown=1><summary markdown="span">Launch a Kubernetes cluster. I am using AWS EKS. Please be aware it's a paid service.</summary>
 
 ### Launch a Kubernetes cluster on AWS EKS (use a Terraform template)
 
