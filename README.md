@@ -142,4 +142,11 @@ spec:
       port: 3306
       targetPort: 3306
 ```
-<img width="600" alt="Screenshot 2023-06-05 at 13 34 46" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/7f4086b3-e800-4316-8009-e4f143727f6c">
+
+<br><br>
+<p align="center" >
+  <img width="700" alt="Screenshot 2023-01-31 at 19 23 50" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/7f4086b3-e800-4316-8009-e4f143727f6c">
+</p>
+
+<br><br>
+
