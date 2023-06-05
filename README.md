@@ -1,4 +1,4 @@
-# Kubernetes_FullStackApp_Deployment
+# Kubernetes a FullStackApp(Node.js / MySQL) Deployment
 
 ## Pre-requisites
 
