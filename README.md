@@ -215,6 +215,18 @@ spec:
 
 ## To troubleshoot the app use: 
 
+Check the container status:
+
+```kubectl get pods```
+
 To get the logs of a pod named "my-pod" in a specific namespace named "my-namespace":
 
-```kubectl logs my-pod -n my-namespace```
+```kubectl logs <mysql-pod-name> -n <my-namespace-name>```
+
+If the pod has multiple containers, you can specify the container name using the -c flag. 
+
+```kubectl logs <mysql-pod-name> -c mysql-server```
+
+Check connectivity: Validate the connectivity to the MySQL server from within the cluster. You can create a temporary pod to access the MySQL server container and test the connection.
+
+```kubectl run -it --rm --image=mysql:latest mysql-client -- mysql -h <mysql-service-name> -u root -p```
