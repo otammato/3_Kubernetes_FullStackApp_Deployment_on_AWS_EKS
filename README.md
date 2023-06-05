@@ -178,6 +178,9 @@ spec:
 > src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/7b5fb33a-2fe0-4e99-a64a-12007c7d8d10">
 </p>
 
+<br>
+<br>
+
 2. Apply the deployment
 
 ```
