@@ -201,7 +201,7 @@ spec:
 <br>
 <br>
 
-2. Insert the DNS into a web browser
+2. Insert the DNS address into a web browser
 
 <img width="700" alt="Screenshot 2023-06-05 at 20 56 54" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/66418119-b190-4275-95de-5017080991aa">
 
