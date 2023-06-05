@@ -91,7 +91,7 @@
 
 <br><br>
 
-1. For the deployment I will be pulling images from DockerHub created in the preceding project located here: https://github.com/otammato/FullStack_NodeJS_MySql_Docker.git
+1. For the deployment I will be pulling images from DockerHub which I created in the preceding project located here: https://github.com/otammato/FullStack_NodeJS_MySql_Docker.git
 
 
 <br><br>
