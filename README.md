@@ -198,6 +198,9 @@ spec:
 
 <img width="700" alt="Screenshot 2023-06-05 at 20 44 44" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/451cbc7e-a993-44a3-8bb7-fd1fa47e3369">
 
+<br>
+<br>
+
 2. Insert the DNS into a web browser
 
 <img width="700" alt="Screenshot 2023-06-05 at 20 56 54" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/66418119-b190-4275-95de-5017080991aa">
