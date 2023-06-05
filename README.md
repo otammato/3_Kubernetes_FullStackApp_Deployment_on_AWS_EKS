@@ -92,7 +92,7 @@ kind: Deployment
 metadata:
   name: my-deployment
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: my-app
