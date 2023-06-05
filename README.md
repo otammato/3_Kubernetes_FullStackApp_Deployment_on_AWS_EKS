@@ -190,6 +190,8 @@ spec:
 <br>
 <br>
 
-3. Retrieve the information about all the Kubernetes resources in your cluster
+3. Retrieve the information about all the Kubernetes resources in your cluster and note the LoadBalancer's external IP
 
 ```kubectl get all```
+
+<img width="700" alt="Screenshot 2023-06-05 at 20 44 44" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/451cbc7e-a993-44a3-8bb7-fd1fa47e3369">
