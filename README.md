@@ -192,7 +192,7 @@ spec:
 
 ## Test the app
 
-1. Retrieve the information about all the Kubernetes resources in your cluster and note the LoadBalancer's external address
+1. Retrieve the information about all the Kubernetes resources in the cluster and note the LoadBalancer's external address
 
 ```kubectl get all```
 
