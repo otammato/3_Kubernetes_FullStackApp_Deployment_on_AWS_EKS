@@ -171,9 +171,10 @@ spec:
 > Following the Deployment, there are two Service definitions. The first one is named "node-app-service" and exposes port 80. It selects the pods with the label "app: my-app" and forwards traffic to port 3000 of those pods. The type of this Service is LoadBalancer, indicating that it will be externally accessible through a load balancer.
 > 
 > The second Service is named "mysql-service" and exposes port 3306. It also selects the pods with the label "app: my-app" and forwards traffic to port 3306 of those pods. This Service allows communication with the MySQL server container.
-
+>
 > The manifest involves environment variables as the Node.js script suggests using ether default variables or the provided ones.
-<p align="center" >
-  <img width="700" alt="Screenshot 2023-01-31 at 19 23 50" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/7b5fb33a-2fe0-4e99-a64a-12007c7d8d10">
+> <p align="center" >
+>   <img width="700" alt="Screenshot 2023-01-31 at 19 23 50" 
+> src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/7b5fb33a-2fe0-4e99-a64a-12007c7d8d10">
 </p>
 
