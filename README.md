@@ -83,3 +83,62 @@
 </details>
 
 ## Create a deployment
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+        - name: node-app
+          image: montcarotte/fullstack_nodejs_mysql_demo:node_app
+          ports:
+            - containerPort: 3000
+          env:
+            - name: APP_DB_HOST
+              value: mysql-service
+            - name: APP_DB_USER
+              value: "root"
+        - name: mysql-server
+          image: montcarotte/fullstack_nodejs_mysql_demo:mysql_server_new
+          ports:
+            - containerPort: 3306
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: "12345678"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-app-service
+spec:
+  selector:
+    app: my-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: LoadBalancer
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-service
+spec:
+  selector:
+    app: my-app
+  ports:
+    - protocol: TCP
+      port: 3306
+      targetPort: 3306
+```
