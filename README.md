@@ -4,7 +4,7 @@
 
 <details markdown=1><summary markdown="span">Launch a Kubernetes cluster on AWS EKS</summary>
 
-## Launch a Kubernetes cluster on AWS EKS (use a Terraform template)
+### Launch a Kubernetes cluster on AWS EKS (use a Terraform template)
 
 1. Clone this official hashicorp repository with terraform templates:
 
@@ -43,7 +43,7 @@
 <br>
 <br>
 
-## Launch and configure a master node to manage the Kubernetes cluster 
+### Launch and configure a master node to manage the Kubernetes cluster 
 
 1. Launch a new EC2 instance or use the current Cloud9 instance. Here is the example of AWS CLI command to launch a t3.small EC2 instance:
 
@@ -82,4 +82,4 @@
 
 </details>
 
-
+## Create a deployment
