@@ -186,3 +186,10 @@ spec:
 ```kubectl apply -f deployment.yaml```
 
 <img width="700" alt="Screenshot 2023-06-05 at 20 18 35" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/d3d7cb97-95b0-45af-85e4-73fb8a9abefd">
+
+<br>
+<br>
+
+3. Retrieve the information about all the Kubernetes resources in your cluster
+
+```kubectl get all```
