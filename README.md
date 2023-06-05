@@ -209,3 +209,12 @@ spec:
 <br>
 
 <img width="700" alt="Screenshot 2023-06-05 at 20 59 12" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/81194846-cc1c-4dbd-8175-cbde724e9271">
+
+<br>
+<br>
+
+## To troubleshoot the app use: 
+
+To get the logs of a pod named "my-pod" in a specific namespace named "my-namespace":
+
+```kubectl logs my-pod -n my-namespace```
