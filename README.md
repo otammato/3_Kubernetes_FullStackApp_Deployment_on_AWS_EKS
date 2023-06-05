@@ -91,7 +91,7 @@
 
 <br><br>
 
-For the deployment I will be pulling images from DockerHub created in the preceding project located here: https://github.com/otammato/FullStack_NodeJS_MySql_Docker.git
+1. For the deployment I will be pulling images from DockerHub created in the preceding project located here: https://github.com/otammato/FullStack_NodeJS_MySql_Docker.git
 
 
 <br><br>
@@ -101,7 +101,7 @@ For the deployment I will be pulling images from DockerHub created in the preced
 
 <br><br>
 
-1. Create a Kubernetes manifest and save it as ```deployment.yaml```
+2. Create a Kubernetes manifest and save it as ```deployment.yaml```
 
 ```yml
 apiVersion: apps/v1
