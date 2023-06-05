@@ -91,6 +91,13 @@
 
 <br><br>
 
+<br><br>
+<p align="center" >
+  <img width="700" alt="Screenshot 2023-01-31 at 19 23 50" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/f52cd4f8-6030-46bc-af5b-c4c5d0cca544">
+</p>
+
+<br><br>
+
 ```yml
 apiVersion: apps/v1
 kind: Deployment
