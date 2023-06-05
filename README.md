@@ -2,6 +2,8 @@
 
 ## Pre-requisites
 
+<img width="788" alt="Screenshot 2023-06-05 at 13 34 46" src="https://github.com/otammato/Kubernetes_FullStackApp_Deployment_on_AWS_EKS/assets/104728608/7f4086b3-e800-4316-8009-e4f143727f6c">
+
 <details markdown=1><summary markdown="span">Launch a Kubernetes cluster on AWS EKS</summary>
 
 ### Launch a Kubernetes cluster on AWS EKS (use a Terraform template)
