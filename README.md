@@ -115,7 +115,7 @@ spec:
             - containerPort: 3306
           env:
             - name: MYSQL_ROOT_PASSWORD
-              value: "12345678"
+              value: "12345678" # the standard security practice for Kubernetes is to manage passwords through a separate secrets.yaml file
 ---
 apiVersion: v1
 kind: Service
