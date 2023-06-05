@@ -101,7 +101,7 @@ For the deployment I will be pulling images from DockerHub created in the preced
 
 <br><br>
 
-Create a Kubernetes manifest and save it as deployment.yaml
+1. Create a Kubernetes manifest and save it as deployment.yaml
 
 ```yml
 apiVersion: apps/v1
