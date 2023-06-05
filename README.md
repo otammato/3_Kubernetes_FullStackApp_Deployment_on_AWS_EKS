@@ -127,7 +127,7 @@ spec:
             - name: APP_DB_HOST
               value: mysql-service
             - name: APP_DB_USER
-              value: "root"
+              value: "admin"
         - name: mysql-server
           image: montcarotte/fullstack_nodejs_mysql_demo:mysql_server_new
           ports:
