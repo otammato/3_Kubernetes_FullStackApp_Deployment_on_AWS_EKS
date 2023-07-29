@@ -222,7 +222,7 @@ spec:
 <br>
 <br>
 
-## To troubleshoot the app: 
+## To troubleshoot: 
 
 Check the container status:
 
