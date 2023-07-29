@@ -1,5 +1,14 @@
 # Kubernetes, a FullStackApp (Node.js / MySQL) Deployment
 
+## Technologies used
+
+- Kubernetes
+- Docker
+- DockerHub
+- NodeJS
+- MySQL
+- AWS Cloud
+
 ## Pre-requisites
 
 <details markdown=1><summary markdown="span">Launch a Kubernetes cluster. I am using AWS EKS. Please be aware it's a paid service.</summary>
